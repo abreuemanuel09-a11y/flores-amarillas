@@ -73,7 +73,7 @@ def main(page: ft.Page):
         login_input.error_text = None
         # Texto actualizado con las frases solicitadas
         texto_bienvenida.value = (
-            f"¡Holaaaaaaaa, {login_input.value.strip()}!\n"
+            f"¡Holaaaaaaaa, {login_input.value.strip()}\n"
             f"Felíz 21 de Septiembre\n"
             f"Yo el Ing. Emanuel con mi aprecio\n"
             f"Te regalo una flor amarilla 🌻\n"
