@@ -1,3 +1,5 @@
+import os
+import flet as ft
 import flet as ft 
 
 def main(page: ft.Page):
@@ -168,4 +170,4 @@ def main(page: ft.Page):
 
     page.add(frame_login, frame_bienvenida)
 
-ft.run(main)
+ft.run(main, assets_dir=".")
