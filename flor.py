@@ -1,5 +1,4 @@
 import os
-import flet as ft
 import flet as ft 
 
 def main(page: ft.Page):
@@ -29,7 +28,7 @@ def main(page: ft.Page):
 
     login_input = ft.TextField(
         label="Nombre",
-        hint_text="Ej. Emanuel",
+        hint_text="Ej. Nombre",
         border_radius=12,
         border_color=ft.Colors.AMBER_400,
         focused_border_color=ft.Colors.YELLOW_300,
@@ -75,10 +74,10 @@ def main(page: ft.Page):
         # Texto actualizado con las frases solicitadas
         texto_bienvenida.value = (
             f"¡Holaaaaaaaa, {login_input.value.strip()}!\n"
-            f"¡Felíz 21 de Septiembre!\n"
-            f"¡Yo Emanuel con mi aprecio!\n"
-            f"¡Te regalo tú flor amarilla! 🌻\n"
-            f"¡No te quedes sin presumir hoy amiga!"
+            f"Felíz 21 de Septiembre\n"
+            f"Yo el Ing. Emanuel con mi aprecio\n"
+            f"Te regalo una flor amarilla 🌻\n"
+            f"No te quedes sin presumir hoy amiga/amigo!"
         )
         
         frame_login.visible = False
